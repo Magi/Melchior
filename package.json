@@ -1,0 +1,36 @@
+{
+    "name": "melchior",
+    "version": "0.0.0",
+    "description": "markdown wrapper for magi",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "/dist"
+    ],
+    "author": "Jordan Bates <drowrin@gmail.com>",
+    "scripts": {
+        "clean": "rimraf dist",
+        "prettier": "prettier --write .",
+        "build-ts": "tsc",
+        "build": "npm run clean && npm run prettier && npm run build-ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Magi/Melchior.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Magi/Melchior/issues"
+    },
+    "homepage": "https://github.com/Magi/Melchior#readme",
+    "dependencies": {
+        "showdown": "^1.9.1"
+    },
+    "devDependencies": {
+        "@types/showdown": "^1.9.3",
+        "prettier": "^2.3.1",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.3.2"
+    }
+}

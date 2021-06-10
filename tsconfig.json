@@ -1,0 +1,14 @@
+{
+    "include": ["src/**/*"],
+
+    "compilerOptions": {
+        "lib": ["es2020"],
+        "target": "es2020",
+
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "outDir": "dist"
+    }
+}
